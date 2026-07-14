@@ -24,3 +24,15 @@ print(type(marks))
 print(type(height))
 print(type(college))
 print(type(passed))
+
+3. Type Conversion
+Explanation
+Sometimes you need to change one data type into another. This process is called type conversion.
+Example
+price = "250"
+
+price_int = int(price)
+discount = float(price_int)
+
+print(price_int)
+print(discount)

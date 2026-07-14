@@ -61,3 +61,13 @@ fruit, color, quantity = "Apple", "Red", 12
 print(fruit)
 print(color)
 print(quantity)
+
+6. Variable Reassignment
+Explanation
+The value stored in a variable can be changed at any time. This is called variable reassignment.
+Example
+status = "Offline"
+print(status)
+
+status = "Online"
+print(status)

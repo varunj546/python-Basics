@@ -36,3 +36,18 @@ discount = float(price_int)
 
 print(price_int)
 print(discount)
+
+4. Arithmetic Operators
+Explanation
+Arithmetic operators are used to perform mathematical calculations.
+Example
+num1 = 18
+num2 = 4
+
+print("Addition:", num1 + num2)
+print("Subtraction:", num1 - num2)
+print("Multiplication:", num1 * num2)
+print("Division:", num1 / num2)
+print("Floor Division:", num1 // num2)
+print("Remainder:", num1 % num2)
+print("Power:", num1 ** num2)

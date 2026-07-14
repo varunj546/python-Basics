@@ -51,3 +51,13 @@ print("Division:", num1 / num2)
 print("Floor Division:", num1 // num2)
 print("Remainder:", num1 % num2)
 print("Power:", num1 ** num2)
+
+5. Assigning Values to Multiple Variables
+Explanation
+Python allows you to assign values to multiple variables in one line, making your code shorter and cleaner.
+Example 1
+fruit, color, quantity = "Apple", "Red", 12
+
+print(fruit)
+print(color)
+print(quantity)

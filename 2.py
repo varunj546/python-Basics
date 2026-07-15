@@ -18,3 +18,15 @@ year = 3
 
 print(f"I am studying {course}.")
 print(f"I am in {year}rd year.")
+
+8. String Manipulation
+8.1 Joining and Repeating Strings
+Explanation
+You can join strings using the + operator and repeat them using the * operator.
+Example
+college = "Srinivas"
+city = "Mangalore"
+
+print(college + " " + city)
+
+print("Python " * 4)

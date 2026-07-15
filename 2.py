@@ -30,3 +30,35 @@ city = "Mangalore"
 print(college + " " + city)
 
 print("Python " * 4)
+
+8.2 Useful String Methods
+Explanation
+Python provides built-in methods to modify strings without changing the original string.
+Example
+text = "  artificial intelligence  "
+
+print(text.strip())
+print(text.title())
+print(text.upper())
+print(text.replace("intelligence", "engineering"))
+8.3 Accessing Characters
+Explanation
+Each character in a string has an index number. Positive indexing starts from the beginning, while negative indexing starts from the end.
+Example
+language = "Programming"
+
+print(language[1])
+print(language[5])
+print(language[-2])
+
+8.4 String Slicing
+Explanation
+Slicing extracts a specific part of a string by giving the starting and ending index.
+Example
+subject = "Machine Learning"
+
+print(subject[0:7])
+print(subject[8:])
+print(subject[-8:])
+
+

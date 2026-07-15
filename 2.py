@@ -61,4 +61,19 @@ print(subject[0:7])
 print(subject[8:])
 print(subject[-8:])
 
+9. Comments in Python
+Explanation
+Comments are notes written inside a program to explain the code. They are ignored when the program runs.
+Single-line Comment
+# Display student details
+
+print("Welcome to Python")
+Multi-line Comment
+"""
+This program
+demonstrates
+comments in Python.
+"""
+
+print("Learning Python")
 

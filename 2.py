@@ -77,3 +77,12 @@ comments in Python.
 
 print("Learning Python")
 
+10. Escape Sequences
+Explanation
+Escape sequences are special characters that begin with a backslash (\). They help format the output.
+Example
+print("Name:\tVijay")
+print("Course:\tAIML")
+print("Welcome\nTo\nPython")
+print("Folder: C:\\Users\\Student")
+

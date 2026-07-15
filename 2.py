@@ -8,3 +8,13 @@ semester = int(input("Enter your semester: "))
 
 print(student)
 print(semester)
+
+7.2 Displaying Output
+Explanation
+The print() function displays information on the screen. You can print text, variables, or use f-strings to create readable output.
+Example
+course = "Artificial Intelligence"
+year = 3
+
+print(f"I am studying {course}.")
+print(f"I am in {year}rd year.")

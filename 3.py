@@ -66,3 +66,18 @@ print("XOR:", x ^ y)
 print("NOT:", ~x)
 print("Left Shift:", x << 2)
 print("Right Shift:", x >> 2)
+
+6. Arithmetic Operators
+Explanation:
+Arithmetic operators perform mathematical calculations.
+Example:
+num1 = 25
+num2 = 4
+
+print("Addition:", num1 + num2)
+print("Subtraction:", num1 - num2)
+print("Multiplication:", num1 * num2)
+print("Division:", num1 / num2)
+print("Floor Division:", num1 // num2)
+print("Modulus:", num1 % num2)
+print("Power:", num1 ** num2)

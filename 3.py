@@ -52,3 +52,17 @@ print("Python" in subjects)
 print("Java" in subjects)
 print("HTML" not in subjects)
 print("ML" not in subjects)
+
+5. Bitwise Operators
+Explanation:
+Bitwise operators work directly with the binary (0 and 1) form of integers.
+Example:
+x = 12
+y = 10
+
+print("AND:", x & y)
+print("OR:", x | y)
+print("XOR:", x ^ y)
+print("NOT:", ~x)
+print("Left Shift:", x << 2)
+print("Right Shift:", x >> 2)

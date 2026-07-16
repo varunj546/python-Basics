@@ -41,3 +41,14 @@ marks = 78
 print(attendance >= 75 and marks >= 35)
 print(attendance < 75 or marks >= 35)
 print(not attendance < 75)
+
+4. Membership Operators
+Explanation:
+Membership operators check whether an item exists in a sequence such as a list, tuple, or string.
+Example:
+subjects = ["Python", "AI", "ML", "DBMS"]
+
+print("Python" in subjects)
+print("Java" in subjects)
+print("HTML" not in subjects)
+print("ML" not in subjects)

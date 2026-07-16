@@ -16,3 +16,17 @@ print("Double Salary:", salary)
 
 salary //= 3
 print("After Floor Division:", salary)
+
+2. Comparison Operators
+Explanation:
+Comparison operators compare two values and return either True or False.
+Example:
+age = 20
+required_age = 18
+
+print(age == required_age)
+print(age != required_age)
+print(age > required_age)
+print(age < required_age)
+print(age >= required_age)
+print(age <= required_age)

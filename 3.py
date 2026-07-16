@@ -30,3 +30,14 @@ print(age > required_age)
 print(age < required_age)
 print(age >= required_age)
 print(age <= required_age)
+
+3. Logical Operators
+Explanation:
+Logical operators combine two or more conditions into a single result.
+Example:
+attendance = 85
+marks = 78
+
+print(attendance >= 75 and marks >= 35)
+print(attendance < 75 or marks >= 35)
+print(not attendance < 75)

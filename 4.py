@@ -42,3 +42,13 @@ print(english >= 35 and maths >= 35)
 print(english >= 70 or maths >= 70)
 print(not english < 35)
 
+4. Membership Operators
+Explanation:
+Membership operators check whether a value is present or absent in a list, tuple, or string.
+Code:
+colors = ["Red", "Blue", "Green", "Black"]
+
+print("Blue" in colors)
+print("White" in colors)
+print("Yellow" not in colors)
+print("Green" not in colors)

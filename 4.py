@@ -31,3 +31,14 @@ print(height1 < height2)
 print(height1 >= 165)
 print(height2 <= 180)
 
+3. Logical Operators
+Explanation:
+Logical operators are used to combine multiple conditions in one statement.
+Code:
+english = 65
+maths = 80
+
+print(english >= 35 and maths >= 35)
+print(english >= 70 or maths >= 70)
+print(not english < 35)
+

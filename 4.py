@@ -17,3 +17,17 @@ print("After Multiplying:", marks)
 marks %= 15
 print("Remainder:", marks)
 
+2. Comparison Operators
+Explanation:
+Comparison operators compare two values and return True if the condition is correct, otherwise False.
+Code:
+height1 = 165
+height2 = 170
+
+print(height1 == height2)
+print(height1 != height2)
+print(height1 > height2)
+print(height1 < height2)
+print(height1 >= 165)
+print(height2 <= 180)
+

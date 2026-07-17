@@ -52,3 +52,18 @@ print("Blue" in colors)
 print("White" in colors)
 print("Yellow" not in colors)
 print("Green" not in colors)
+
+
+5. Bitwise Operators
+Explanation:
+Bitwise operators perform operations on the binary form (0s and 1s) of numbers.
+Code:
+a = 9
+b = 6
+
+print("AND =", a & b)
+print("OR =", a | b)
+print("XOR =", a ^ b)
+print("NOT =", ~a)
+print("Left Shift =", a << 1)
+print("Right Shift =", b >> 1)

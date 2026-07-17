@@ -67,3 +67,18 @@ print("XOR =", a ^ b)
 print("NOT =", ~a)
 print("Left Shift =", a << 1)
 print("Right Shift =", b >> 1)
+
+6. Arithmetic Operators
+Explanation:
+Arithmetic operators are used to perform basic mathematical calculations such as addition, subtraction, multiplication, division, remainder, and exponentiation.
+Code:
+length = 12
+width = 5
+
+print("Addition =", length + width)
+print("Subtraction =", length - width)
+print("Multiplication =", length * width)
+print("Division =", length / width)
+print("Floor Division =", length // width)
+print("Modulus =", length % width)
+print("Power =", length ** 2)

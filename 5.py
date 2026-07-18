@@ -15,3 +15,17 @@ print(cities[1])
 print(cities[3])
 print(cities[-1])
 print(cities[-2])
+
+3. Modifying Lists
+Explanation:
+Since lists are mutable, you can change, add, or remove elements after creating the list.
+Code:
+languages = ["Python", "Java", "C"]
+
+languages[2] = "C++"
+languages.append("HTML")
+languages.insert(1, "JavaScript")
+languages.remove("Java")
+languages.pop()
+
+print(languages)

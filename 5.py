@@ -1,6 +1,17 @@
 1. What is a List?
-Explanation:
 A list is a collection of multiple values stored in a single variable. Lists are ordered, changeable (mutable), and can contain duplicate values and different data types.
 Code:
 student = ["Rahul", 21, "AIML", True]
 print(student)
+
+
+2. Accessing List Elements
+Explanation:
+You can access list elements using their index number. The first element starts at index 0, and negative indexing starts from the last element.
+Code:
+cities = ["Mangalore", "Bangalore", "Mysore", "Hubli"]
+
+print(cities[1])
+print(cities[3])
+print(cities[-1])
+print(cities[-2])

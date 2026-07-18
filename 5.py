@@ -40,3 +40,22 @@ print(marks[2:6])
 print(marks[:5])
 print(marks[3:])
 print(marks[1:7:2])
+
+
+5. List Functions and Methods
+Explanation:
+Python provides built-in functions and methods to perform operations like finding length, sorting, reversing, counting, and locating elements.
+Code:
+numbers = [18, 7, 25, 12, 7]
+
+print("Length:", len(numbers))
+print("Sum:", sum(numbers))
+print("Sorted:", sorted(numbers))
+print("Index of 25:", numbers.index(25))
+print("Count of 7:", numbers.count(7))
+
+numbers.reverse()
+print("Reversed:", numbers)
+
+numbers.sort()
+print("Sorted List:", numbers)

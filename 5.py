@@ -29,3 +29,14 @@ languages.remove("Java")
 languages.pop()
 
 print(languages)
+
+4. Slicing Lists
+Explanation:
+Slicing is used to extract a portion of a list. It allows you to select a range of elements.
+Code:
+marks = [45, 56, 67, 78, 89, 91, 95]
+
+print(marks[2:6])
+print(marks[:5])
+print(marks[3:])
+print(marks[1:7:2])

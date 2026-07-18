@@ -59,3 +59,17 @@ print("Reversed:", numbers)
 
 numbers.sort()
 print("Sorted List:", numbers)
+
+6. Nested Lists
+Explanation:
+A nested list is a list that contains one or more lists as its elements. It is useful for storing data in rows and columns.
+Code:
+employees = [
+    ["Ravi", 101, "HR"],
+    ["Anu", 102, "Finance"],
+    ["Kiran", 103, "IT"]
+]
+
+print(employees[0])
+print(employees[2][0])
+print(employees[1][2])

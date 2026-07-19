@@ -16,3 +16,18 @@ months = ("January", "February", "March", "April", "May")
 print(months[2])
 print(months[-2])
 print(months[1:4])
+
+
+3. Tuple Operations
+Explanation:
+Although tuples cannot be modified, you can join tuples, repeat them, and check if an element exists.
+Code:
+odd = (1, 3, 5)
+even = (2, 4, 6)
+
+numbers = odd + even
+print(numbers)
+
+print(("AI", "ML") * 2)
+
+print(4 in numbers)

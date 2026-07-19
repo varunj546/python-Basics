@@ -60,3 +60,24 @@ print("Union:", A | B)
 print("Intersection:", A & B)
 print("Difference:", A - B)
 print("Symmetric Difference:", A ^ B)
+
+8. Set Methods
+Explanation:
+Set methods help you add, remove, and clear elements from a set.
+Code:
+sports = {"Cricket", "Football", "Tennis"}
+
+sports.add("Hockey")
+print(sports)
+
+sports.remove("Football")
+print(sports)
+
+sports.discard("Kabaddi")
+print(sports)
+
+sports.pop()
+print(sports)
+
+sports.clear()
+print(sports)

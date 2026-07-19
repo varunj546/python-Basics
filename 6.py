@@ -40,3 +40,11 @@ colors = ("Red", "Blue", "Green", "Blue", "Yellow")
 
 print(colors.count("Blue"))
 print(colors.index("Green"))
+
+6. Sets in Python
+Explanation:
+A set is an unordered collection of unique elements. Duplicate values are automatically removed.
+Code:
+numbers = {10, 20, 30, 20, 40, 10}
+
+print(numbers)

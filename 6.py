@@ -48,3 +48,15 @@ Code:
 numbers = {10, 20, 30, 20, 40, 10}
 
 print(numbers)
+
+7. Set Operations
+Explanation:
+Sets support mathematical operations like union, intersection, difference, and symmetric difference.
+Code:
+A = {2, 4, 6, 8}
+B = {6, 8, 10, 12}
+
+print("Union:", A | B)
+print("Intersection:", A & B)
+print("Difference:", A - B)
+print("Symmetric Difference:", A ^ B)

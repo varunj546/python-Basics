@@ -7,3 +7,12 @@ student = ("Anjali", 20, "AIML", 8.9)
 print(student)
 print(student[0])
 print(student[-1])
+2. Accessing Tuple Elements
+Explanation:
+You can access tuple elements using index numbers or by slicing.
+Code:
+months = ("January", "February", "March", "April", "May")
+
+print(months[2])
+print(months[-2])
+print(months[1:4])

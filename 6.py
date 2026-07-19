@@ -31,3 +31,12 @@ print(numbers)
 print(("AI", "ML") * 2)
 
 print(4 in numbers)
+
+4. Tuple Methods
+Explanation:
+Tuples provide methods such as count() to count occurrences and index() to find the position of an element.
+Code:
+colors = ("Red", "Blue", "Green", "Blue", "Yellow")
+
+print(colors.count("Blue"))
+print(colors.index("Green"))

@@ -37,3 +37,21 @@ employee["Department"] = "HR"
 employee["Name"] = "Ananya"
 
 print(employee)
+
+4. Removing Elements from a Dictionary
+Explanation:
+Dictionary elements can be removed using pop(), del, or clear().
+Code:
+mobile = {
+    "Brand": "Samsung",
+    "Model": "A35",
+    "Color": "Blue"
+}
+
+mobile.pop("Color")
+del mobile["Model"]
+
+print(mobile)
+
+mobile.clear()
+print(mobile)

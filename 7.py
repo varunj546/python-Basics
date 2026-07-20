@@ -55,3 +55,20 @@ print(mobile)
 
 mobile.clear()
 print(mobile)
+
+5. Dictionary Methods
+Explanation:
+Dictionary methods help you retrieve keys, values, key-value pairs, and update the dictionary.
+Code:
+car = {
+    "Brand": "Toyota",
+    "Model": "Innova",
+    "Year": 2024
+}
+
+print(car.keys())
+print(car.values())
+print(car.items())
+
+car.update({"Color": "White"})
+print(car)

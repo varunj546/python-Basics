@@ -72,3 +72,22 @@ print(car.items())
 
 car.update({"Color": "White"})
 print(car)
+
+6. Dictionary Characteristics
+Explanation:
+Dictionaries store data as key-value pairs.
+Keys must be unique.
+Values can be of any data type.
+Dictionaries are mutable, so you can add, update, or remove items.
+Duplicate keys are not allowed; the latest value replaces the old one.
+Code:
+person = {
+    "Name": "Asha",
+    "Age": 22,
+    "City": "Mangalore",
+    "Age": 25
+}
+
+print(person)
+Output:
+{'Name': 'Asha', 'Age': 25, 'City': 'Mangalore'}

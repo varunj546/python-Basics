@@ -23,3 +23,17 @@ book = {
 print(book["Title"])
 print(book.get("Author"))
 print(book.get("Publisher", "Not Available"))
+
+3. Adding and Updating Dictionary Elements
+Explanation:
+You can add a new key-value pair or change the value of an existing key.
+Code:
+employee = {
+    "ID": 101,
+    "Name": "Priya"
+}
+
+employee["Department"] = "HR"
+employee["Name"] = "Ananya"
+
+print(employee)

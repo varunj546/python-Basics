@@ -9,3 +9,17 @@ student = {
 }
 
 print(student)
+
+2. Accessing Dictionary Elements
+Explanation:
+Dictionary values can be accessed using their key. You can use square brackets [] or the get() method.
+Code:
+book = {
+    "Title": "Python Basics",
+    "Author": "John",
+    "Price": 450
+}
+
+print(book["Title"])
+print(book.get("Author"))
+print(book.get("Publisher", "Not Available"))

@@ -42,3 +42,15 @@ if balance > 3000:
     print("You have sufficient balance.")
 else:
     print("Low balance.")
+
+5. Logical Operators in if Statements
+Explanation:
+Logical operators (and, or, not) combine two or more conditions.
+Code:
+username = "admin"
+password = "12345"
+
+if username == "admin" and password == "12345":
+    print("Login Successful")
+else:
+    print("Login Failed")

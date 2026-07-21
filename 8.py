@@ -96,3 +96,19 @@ if age >= 18:
     print("Drive Safely")
 else:
     print("Not Eligible")
+
+9. The match-case Statement (Python 3.10+)
+Explanation:
+The match-case statement checks a variable against multiple values. It is similar to the switch-case statement in other programming languages.
+Code:
+fruit = "Apple"
+
+match fruit:
+    case "Apple":
+        print("Apple is Red.")
+    case "Banana":
+        print("Banana is Yellow.")
+    case "Orange":
+        print("Orange is Orange.")
+    case _:
+        print("Fruit Not Found")

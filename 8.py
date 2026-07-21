@@ -16,3 +16,18 @@ if password == "admin123":
     print("Login Successful")
 else:
     print("Invalid Password")
+
+The elif Statement
+Explanation:
+The elif statement is used to check multiple conditions one after another. If one condition is true, the remaining conditions are skipped.
+Code:
+score = 72
+
+if score >= 90:
+    print("Excellent")
+elif score >= 75:
+    print("Very Good")
+elif score >= 50:
+    print("Good")
+else:
+    print("Needs Improvement")

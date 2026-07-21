@@ -69,3 +69,18 @@ elif bill >= 1000:
     print("5% Discount")
 else:
     print("No Discount")
+
+7. Nested if Statements
+Explanation:
+A nested if means placing one if statement inside another if statement.
+Code:
+has_ticket = True
+has_id = True
+
+if has_ticket:
+    if has_id:
+        print("Entry Allowed")
+    else:
+        print("Show your ID Card")
+else:
+    print("Please Buy a Ticket")

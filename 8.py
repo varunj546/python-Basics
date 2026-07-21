@@ -54,3 +54,18 @@ if username == "admin" and password == "12345":
     print("Login Successful")
 else:
     print("Login Failed")
+
+6. Example: Checking Electricity Bill Discount
+Explanation:
+The discount depends on the total electricity bill amount.
+Code:
+bill = 1800
+
+if bill >= 3000:
+    print("20% Discount")
+elif bill >= 2000:
+    print("10% Discount")
+elif bill >= 1000:
+    print("5% Discount")
+else:
+    print("No Discount")

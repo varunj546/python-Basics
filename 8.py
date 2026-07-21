@@ -84,3 +84,15 @@ if has_ticket:
         print("Show your ID Card")
 else:
     print("Please Buy a Ticket")
+
+8. Indentation in Python
+Explanation:
+Python uses indentation (spaces) to define which statements belong to an if, elif, or else block. Incorrect indentation causes an error.
+Code:
+age = 22
+
+if age >= 18:
+    print("Eligible for Driving License")
+    print("Drive Safely")
+else:
+    print("Not Eligible")

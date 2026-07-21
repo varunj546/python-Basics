@@ -31,3 +31,14 @@ elif score >= 50:
     print("Good")
 else:
     print("Needs Improvement")
+
+4. Comparison Operators in if Statements
+Explanation:
+Comparison operators compare two values and return either True or False.
+Code:
+balance = 5000
+
+if balance > 3000:
+    print("You have sufficient balance.")
+else:
+    print("Low balance.")

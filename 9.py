@@ -49,3 +49,16 @@ while password != "python":
     password = input("Enter Password: ")
 
 print("Access Granted")
+
+7. Real-life Example: ATM Balance Check
+Explanation:
+The loop continues until the account balance becomes zero.
+Code:
+balance = 3000
+
+while balance > 0:
+    print("Current Balance:", balance)
+    withdraw = int(input("Enter Amount: "))
+    balance -= withdraw
+
+print("Balance is Zero")

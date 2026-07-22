@@ -38,3 +38,14 @@ while num <= 10:
         break
     print(num)
     num += 1
+
+6. Using while Loop for User Input
+Explanation:
+A while loop can repeatedly ask for input until the user enters the correct value.
+Code:
+password = ""
+
+while password != "python":
+    password = input("Enter Password: ")
+
+print("Access Granted")

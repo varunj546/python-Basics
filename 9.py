@@ -62,3 +62,21 @@ while balance > 0:
     balance -= withdraw
 
 print("Balance is Zero")
+
+8. Nested while Loop
+Explanation:
+A nested while loop means placing one while loop inside another. It is useful for repeating tasks in rows and columns.
+Code:
+row = 1
+
+while row <= 3:
+    col = 1
+    while col <= 4:
+        print("*", end=" ")
+        col += 1
+    print()
+    row += 1
+Output:
+* * * *
+* * * *
+* * * *

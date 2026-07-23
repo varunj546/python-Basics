@@ -137,3 +137,11 @@ elif num < 0:
     print("Negative Number")
 else:
     print("Zero")
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+if num1 > num2:
+    print("Largest Number:", num1)
+else:
+    print("Largest Number:", num2)

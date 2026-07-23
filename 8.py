@@ -145,3 +145,17 @@ if num1 > num2:
     print("Largest Number:", num1)
 else:
     print("Largest Number:", num2)
+
+bill = float(input("Enter the bill amount: "))
+
+if bill >= 5000:
+    discount = bill * 0.20
+elif bill >= 3000:
+    discount = bill * 0.10
+else:
+    discount = 0
+
+final_bill = bill - discount
+
+print("Discount:", discount)
+print("Final Bill:", final_bill)

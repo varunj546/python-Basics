@@ -86,3 +86,9 @@ i = 1
 while i <= 10:
     print(i)
     i += 1
+
+num = 2
+
+while num <= 20:
+    print(num)
+    num += 2

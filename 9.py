@@ -17,6 +17,7 @@ while num <= 10:
     print(num)
     num += 2
 
+
 3. Avoiding Infinite Loops
 Explanation:
 Always update the loop variable. Otherwise, the condition never becomes False and the loop runs forever.
@@ -118,3 +119,10 @@ while num > 0:
     num //= 10
 
 print("Reversed Number =", reverse)
+
+total = 0
+
+for i in range(1, 101):
+    total += i
+
+print("Sum =", total)

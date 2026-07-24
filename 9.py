@@ -92,3 +92,12 @@ num = 2
 while num <= 20:
     print(num)
     num += 2
+
+i = 1
+total = 0
+
+while i <= 10:
+    total += i
+    i += 1
+
+print("Sum =", total)

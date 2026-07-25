@@ -126,3 +126,23 @@ for i in range(1, 101):
     total += i
 
 print("Sum =", total)
+
+num_students = int(input("Enter the number of students: "))
+
+students = []
+
+for i in range(num_students):
+    print("\nStudent", i + 1)
+
+    name = input("Enter student name: ")
+
+    marks = []
+    total = 0
+
+    for j in range(5):
+        mark = int(input("Enter mark for Subject " + str(j + 1) + ": "))
+        marks.append(mark)
+        total += mark
+
+    average = total / 5
+    

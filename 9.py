@@ -256,3 +256,53 @@ for item in cart:
     print()
 
 print("Grand Total:", grand_total)
+
+numbers = []
+
+n = int(input("How many numbers do you want to enter? "))
+
+for i in range(n):
+    num = int(input("Enter Number: "))
+    numbers.append(num)
+
+positive = 0
+negative = 0
+even = 0
+odd = 0
+total = 0
+
+for num in numbers:
+    total += num
+
+    if num > 0:
+        positive += 1
+    elif num < 0:
+        negative += 1
+
+    if num % 2 == 0:
+        even += 1
+    else:
+        odd += 1
+
+largest = numbers[0]
+smallest = numbers[0]
+
+for num in numbers:
+    if num > largest:
+        largest = num
+
+    if num < smallest:
+        smallest = num
+
+average = total / len(numbers)
+
+print("\n------ Analysis ------")
+print("Numbers:", numbers)
+print("Sum:", total)
+print("Average:", average)
+print("Largest:", largest)
+print("Smallest:", smallest)
+print("Positive Numbers:", positive)
+print("Negative Numbers:", negative)
+print("Even Numbers:", even)
+print("Odd Numbers:", odd)

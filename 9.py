@@ -200,3 +200,32 @@ while True:
 
     else:
         print("Invalid Choice")
+
+employees = []
+
+n = int(input("Enter number of employees: "))
+
+for i in range(n):
+    print("\nEmployee", i + 1)
+
+    name = input("Enter Name: ")
+    basic = float(input("Enter Basic Salary: "))
+
+    hra = basic * 0.20
+    da = basic * 0.15
+    tax = basic * 0.10
+
+    net_salary = basic + hra + da - tax
+
+    employees.append([name, basic, hra, da, tax, net_salary])
+
+print("\n------ Employee Details ------")
+
+for emp in employees:
+    print("Name:", emp[0])
+    print("Basic Salary:", emp[1])
+    print("HRA:", emp[2])
+    print("DA:", emp[3])
+    print("Tax:", emp[4])
+    print("Net Salary:", emp[5])
+    print()

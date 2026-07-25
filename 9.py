@@ -228,4 +228,31 @@ for emp in employees:
     print("DA:", emp[3])
     print("Tax:", emp[4])
     print("Net Salary:", emp[5])
+
+cart = []
+grand_total = 0
+
+n = int(input("Enter number of products: "))
+
+for i in range(n):
+    print("\nProduct", i + 1)
+
+    name = input("Product Name: ")
+    price = float(input("Price: "))
+    quantity = int(input("Quantity: "))
+
+    total = price * quantity
+    grand_total += total
+
+    cart.append([name, price, quantity, total])
+
+print("\n======= BILL =======")
+
+for item in cart:
+    print("Product:", item[0])
+    print("Price:", item[1])
+    print("Quantity:", item[2])
+    print("Total:", item[3])
     print()
+
+print("Grand Total:", grand_total)

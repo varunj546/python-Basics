@@ -145,4 +145,23 @@ for i in range(num_students):
         total += mark
 
     average = total / 5
-    
+     if average >= 90:
+        grade = "A"
+    elif average >= 75:
+        grade = "B"
+    elif average >= 60:
+        grade = "C"
+    else:
+        grade = "Fail"
+
+    students.append([name, marks, total, average, grade])
+
+print("\n----- Student Report -----")
+
+for student in students:
+    print("Name:", student[0])
+    print("Marks:", student[1])
+    print("Total:", student[2])
+    print("Average:", student[3])
+    print("Grade:", student[4])
+    print()

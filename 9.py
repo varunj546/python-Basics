@@ -325,4 +325,12 @@ Output:
 * * * *
 * * * *
 * * * *
+1. Basic while Loop
+Explanation:
+A while loop repeats a block of code until the condition becomes False.
+Code:
+count = 1
 
+while count <= 5:
+    print("Welcome")
+    count += 1

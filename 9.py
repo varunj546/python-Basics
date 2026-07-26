@@ -306,3 +306,6 @@ print("Positive Numbers:", positive)
 print("Negative Numbers:", negative)
 print("Even Numbers:", even)
 print("Odd Numbers:", odd)
+
+for num in numbers:
+    total += num

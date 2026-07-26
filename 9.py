@@ -309,3 +309,7 @@ print("Odd Numbers:", odd)
 
 for num in numbers:
     total += num
+if num > 0:
+        positive += 1
+    elif num < 0:
+        negative += 1

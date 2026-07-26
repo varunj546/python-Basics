@@ -334,3 +334,15 @@ count = 1
 while count <= 5:
     print("Welcome")
     count += 1
+4. Using break
+Explanation:
+The break statement immediately stops the loop when a specific condition is met.
+Code:
+num = 1
+
+while num <= 10:
+    if num == 7:
+        print("Loop Stopped")
+        break
+    print(num)
+    num += 1

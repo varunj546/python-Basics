@@ -7,3 +7,9 @@ for animal in animals:
 2. Using range()
 for i in range(5, 16):
     print(i)
+
+3. Looping Through a String
+word = "PYTHON"
+
+for letter in word:
+    print(letter)

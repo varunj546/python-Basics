@@ -28,3 +28,9 @@ for num in numbers:
         print("Number Found")
         break
     print(num)
+
+6. Using continue
+for i in range(1, 11):
+    if i == 6:
+        continue
+    print(i)

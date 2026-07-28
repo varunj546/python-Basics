@@ -42,3 +42,13 @@ num = int(input("Enter a number: "))
 
 for i in range(1, 11):
     print(num, "x", i, "=", num * i)
+
+text = input("Enter a string: ")
+
+count = 0
+
+for ch in text.lower():
+    if ch in "aeiou":
+        count += 1
+
+print("Number of vowels:", count)

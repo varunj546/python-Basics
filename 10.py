@@ -2,6 +2,7 @@ Basic for Loop
 animals = ["Dog", "Cat", "Cow", "Horse"]
 
 for animal in animals:
+    print(animal)for animal in animals:
     print(animal)
 
 2. Using range()

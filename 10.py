@@ -96,3 +96,12 @@ for i in range(5, 16):
 
 3. Looping Through a String
 word = "PYTHON"
+4. Nested for Loop
+for i in range(1, 4):
+    for j in range(1, 4):
+        print(i, "*", j, "=", i * j)
+    print()4. Nested for Loop
+for i in range(1, 4):
+    for j in range(1, 4):
+        print(i, "*", j, "=", i * j)
+    print()

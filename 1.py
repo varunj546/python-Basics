@@ -122,3 +122,12 @@ print("Division:", num1 / num2)
 print("Floor Division:", num1 // num2)
 print("Remainder:", num1 % num2)
 print("Power:", num1 ** num2)
+6. Variable Reassignment
+Explanation
+The value stored in a variable can be changed at any time. This is called variable reassignment.
+Example
+status = "Offline"
+print(status)
+
+status = "Online"
+print(status)

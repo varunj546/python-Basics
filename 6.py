@@ -118,3 +118,12 @@ result = tuple1 + tuple2
 print("Tuple 1:", tuple1)
 print("Tuple 2:", tuple2)
 print("Combined Tuple:", result)
+
+# Tuple of programming languages
+languages = ("Python", "Java", "C", "C++", "JavaScript")
+
+# Check membership
+if "Python" in languages:
+    print("Python is available in the tuple.")
+else:
+    print("Python is not available.")

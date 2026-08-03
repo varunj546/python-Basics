@@ -127,3 +127,11 @@ if "Python" in languages:
     print("Python is available in the tuple.")
 else:
     print("Python is not available.")
+
+# Tuple of marks
+marks = (85, 92, 78, 96, 88)
+
+# Maximum and Minimum
+print("Marks:", marks)
+print("Highest Marks:", max(marks))
+print("Lowest Marks:", min(marks))

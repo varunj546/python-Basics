@@ -98,3 +98,12 @@ length = len(numbers)
 
 print("Tuple:", numbers)
 print("Length of Tuple:", length)
+
+# Tuple with repeated values
+colors = ("Red", "Blue", "Green", "Blue", "Yellow", "Blue")
+
+# Count occurrences
+print("Count of Blue:", colors.count("Blue"))
+
+# Find index
+print("Index of Green:", colors.index("Green"))

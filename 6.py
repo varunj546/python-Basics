@@ -89,3 +89,12 @@ fruits = ("Apple", "Banana", "Mango", "Orange")
 print("First Fruit:", fruits[0])
 print("Second Fruit:", fruits[1])
 print("Last Fruit:", fruits[-1])
+
+# Tuple of numbers
+numbers = (10, 20, 30, 40, 50, 60)
+
+# Finding length
+length = len(numbers)
+
+print("Tuple:", numbers)
+print("Length of Tuple:", length)

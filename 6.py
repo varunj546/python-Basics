@@ -81,3 +81,11 @@ print(sports)
 
 sports.clear()
 print(sports)
+
+# Creating a tuple
+fruits = ("Apple", "Banana", "Mango", "Orange")
+
+# Accessing elements
+print("First Fruit:", fruits[0])
+print("Second Fruit:", fruits[1])
+print("Last Fruit:", fruits[-1])

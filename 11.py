@@ -72,4 +72,27 @@ p.introduction()
 s.introduction()
 t.introduction()
 
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def display(self):
+        print("Name:", self.name)
+        print("Age:", self.age)
+
+
+class Student(Person):
+    def __init__(self, name, age, branch):
+        super().__init__(name, age)
+        self.branch = branch
+
+    def show_branch(self):
+        print("Branch:", self.branch)
+
+
+student = Student("Viji", 20, "AIML")
+
+student.display()
+student.show_branch()
 

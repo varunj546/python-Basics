@@ -48,3 +48,28 @@ while True:
     elif choice == 5:
         print("Exiting the program.")
         break
+
+class Person:
+    def introduction(self):
+        print("I am a Person.")
+
+
+class Student(Person):
+    def introduction(self):
+        print("I am a Student.")
+
+
+class Teacher(Person):
+    def introduction(self):
+        print("I am a Teacher.")
+
+
+p = Person()
+s = Student()
+t = Teacher()
+
+p.introduction()
+s.introduction()
+t.introduction()
+
+

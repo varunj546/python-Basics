@@ -185,3 +185,11 @@ class Employee:
 
 employee1 = Employee("Rahul", 30000)
 employee1.display()
+
+class Student:
+    def display(self):
+        print("Student name: Vijay")
+        print("Age: 20")
+
+student1 = Student()
+student1.display()
